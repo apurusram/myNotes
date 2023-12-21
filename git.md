@@ -1,4 +1,39 @@
-# Working with git branches
+# 3 stages
+Committed
+Modified
+Staged
+
+# 3 states:
+working directory
+staging area (index)
+.git directory (repo)
+
+# print working directory
+pwd
+
+# change working directoR
+cd
+
+# list files
+dir
+
+# create new directory
+mkdir
+
+# git config
+git config --global user.name ""
+git config --global user.email ""
+git config --global user.password ""
+
+# check config settings
+git config --list
+
+# initialize a git repo
+cd to project directory
+git init
+
+
+# WORKING WITH GIT BRANCHES
 
 # Create a branch called "quickfix" and move to that branch
 git checkout -b quickfix
